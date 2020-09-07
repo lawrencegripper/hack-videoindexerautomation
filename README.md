@@ -12,8 +12,9 @@ This quick hack uses the terraform `shell`, `azurerm` and `azuread` providers to
 
 ## Quick start
 
-1. Clone the project
+1. Clone the project and open in VSCode with "Remote - containers" extension installed
 1. Ensure your logged into the [`azurecli`](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) and running in the devcontainer. If you already have `azurecli` installed on your machine and logged in the devcontainer will use these details and there is no need to login again in the devcontainer.
+1. `CTRL+SHIFT+P` -> `Reopen in container`
 1. Rename the `example.vars.tfvars` to `vars.auto.tfvars`
 1. Set values in `vars.auto.tfvars` as required
 1. run `pwsh -c 'Invoke-psake ./make.ps1 tf-deploy'`
