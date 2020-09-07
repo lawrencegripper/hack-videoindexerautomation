@@ -1,5 +1,7 @@
 # Video Indexer Automation with Terraform 0.13 and Shell provider
 
+> WARNING: This is an initial hack to test the viability. It is not maintained. For production uses a fork should be taken and further testing is highly recommended.
+
 This quick hack uses the terraform `shell`, `azurerm` and `azuread` providers to create:
 
 - Media services instance
