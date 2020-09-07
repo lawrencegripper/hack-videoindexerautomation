@@ -1,0 +1,1 @@
+vi_api_key = "vi api key here Docs on how to obtain here: https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-use-apis#subscribe-to-the-api"
